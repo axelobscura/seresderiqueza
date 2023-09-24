@@ -13,41 +13,41 @@ export default function Home() {
         <div className='w-full px-3'>
           <h3 className='text-lg'>REAL MES</h3>
           <h2>EMPLEO</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>ADICIONALES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>COMISIONES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>VENTA DE ACTIVOS</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>INGRESOS POR INVERSIONES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
         </div>
         <div className='w-full px-3'>
           <h3 className='text-lg'>PRESUPUESTO MES</h3>
           <h2>EMPLEO</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>ADICIONALES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>COMISIONES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>VENTA DE ACTIVOS</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>INGRESOS POR INVERSIONES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
         </div>
         <div className='w-full px-3'>
           <h3 className='text-lg'>OBJECTIVO %</h3>
           <h2>EMPLEO</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>ADICIONALES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>COMISIONES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>VENTA DE ACTIVOS</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
           <h2 className='mt-3'>INGRESOS POR INVERSIONES</h2>
-          <input type="text" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
+          <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
         </div>
       </div>
       <button className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5 text-xl">
