@@ -16,7 +16,7 @@ export default function Home() {
             <h3 className='flex flex-row items-center text-xl mb-5 border-b border-gray-300'><RocketLaunchIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> FINANZAS PERSONALES</h3>
           </div>
           <div className='flex flex-row justify-between w-full'>
-            <div className='w-full px-3'>
+            <div className='w-full'>
               <h3 className='flex flex-row items-center text-base bg-gray-900 p-3 mb-3'><PlusIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> REAL MES</h3>
               <h2>EMPLEO</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
@@ -26,7 +26,7 @@ export default function Home() {
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
               <h2 className='mt-3'>VENTA DE ACTIVOS</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
-              <h2 className='mt-3'>INGRESOS POR INVERSIONES</h2>
+              <h2 className='mt-3'>INVERSIONES</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
             </div>
             <div className='w-full px-3'>
@@ -39,10 +39,10 @@ export default function Home() {
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
               <h2 className='mt-3'>VENTA DE ACTIVOS</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
-              <h2 className='mt-3'>INGRESOS POR INVERSIONES</h2>
+              <h2 className='mt-3'>INVERSIONES</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
             </div>
-            <div className='w-full px-3'>
+            <div className='w-full'>
               <h3 className='flex flex-row items-center text-base bg-gray-900 p-3 mb-3'><PlusIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> OBJECTIVO %</h3>
               <h2>EMPLEO</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
@@ -52,11 +52,11 @@ export default function Home() {
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
               <h2 className='mt-3'>VENTA DE ACTIVOS</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
-              <h2 className='mt-3'>INGRESOS POR INVERSIONES</h2>
+              <h2 className='mt-3'>INVERSIONES</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
             </div>
           </div>
-          <button className="bg-purple-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5 text-xl mx-3">
+          <button className="bg-purple-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5 text-xl w-full">
             CALCULAR
           </button>
         </div>
