@@ -11,11 +11,11 @@ export default function Home() {
       <hr className='mt-3 mb-3' />
 
       <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="p-4">
+        <div className="sm:p12 md:p-4">
           <div className='justify-left w-full'>
             <h3 className='flex flex-row items-center text-xl mb-5 border-b border-gray-300'><RocketLaunchIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> FINANZAS PERSONALES</h3>
           </div>
-          <div className='flex flex-row justify-between w-full'>
+          <div className='grid sm:grid-cols-1 gap-3 md:grid-cols-3 w-full'>
             <div className='w-full'>
               <h3 className='flex flex-row items-center text-base bg-gray-900 p-3 mb-3'><PlusIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> REAL MES</h3>
               <h2>EMPLEO</h2>
@@ -29,7 +29,7 @@ export default function Home() {
               <h2 className='mt-3'>INVERSIONES</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
             </div>
-            <div className='w-full px-3'>
+            <div className='w-full'>
               <h3 className='flex flex-row items-center text-base bg-gray-900 p-3 mb-3'><PlusIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> PRESUPUESTO</h3>
               <h2>EMPLEO</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
