@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Accordion from "./components/Accordion"
-import { BeakerIcon, RocketLaunchIcon, MegaphoneIcon } from '@heroicons/react/24/solid'
+import { RocketLaunchIcon, MegaphoneIcon, PlusIcon } from '@heroicons/react/24/solid'
 
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <div className='flex flex-row justify-between w-full'>
             <div className='w-full px-3'>
-              <h3 className='text-base bg-gray-900 p-3 mb-3'>REAL MES</h3>
+              <h3 className='flex flex-row items-center text-base bg-gray-900 p-3 mb-3'><PlusIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> REAL MES</h3>
               <h2>EMPLEO</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
               <h2 className='mt-3'>ADICIONALES</h2>
@@ -30,7 +30,7 @@ export default function Home() {
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
             </div>
             <div className='w-full px-3'>
-              <h3 className='text-base bg-gray-900 p-3 mb-3'>PRESUPUESTO MES</h3>
+              <h3 className='flex flex-row items-center text-base bg-gray-900 p-3 mb-3'><PlusIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> PRESUPUESTO</h3>
               <h2>EMPLEO</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
               <h2 className='mt-3'>ADICIONALES</h2>
@@ -43,7 +43,7 @@ export default function Home() {
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
             </div>
             <div className='w-full px-3'>
-              <h3 className='text-base bg-gray-900 p-3 mb-3'>OBJECTIVO %</h3>
+              <h3 className='flex flex-row items-center text-base bg-gray-900 p-3 mb-3'><PlusIcon className="h-10 w-10 text-blue-500 mr-2 bg-gray-900 p-2" /> OBJECTIVO %</h3>
               <h2>EMPLEO</h2>
               <input type="number" className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-gray-500 w-full mt-3 text-gray-900"></input>
               <h2 className='mt-3'>ADICIONALES</h2>
@@ -75,6 +75,18 @@ export default function Home() {
             />
             <Accordion
               title="GASTOS AJUSTABLES"
+              content="Content for Item 3"
+            />
+            <Accordion
+              title="GASTOS POR GUSTO"
+              content="Content for Item 3"
+            />
+            <Accordion
+              title="AHORROS E IMPREVISTOS"
+              content="Content for Item 3"
+            />
+            <Accordion
+              title="PROYECCIONES DE AHORROS"
               content="Content for Item 3"
             />
           </div>
