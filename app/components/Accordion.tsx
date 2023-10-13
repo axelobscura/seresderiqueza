@@ -19,8 +19,8 @@ const Accordion = ({ title, content } : { title:any, content:any }) => {
         <span>{isOpen ? "▲" : "▼"}</span>
       </button>
       {isOpen && (
-        <div className="p-4 bg-white text-gray-900">
-          <p>{content}</p>
+        <div className="p-4 bg-gray-700 text-gray-700">
+          <p className="text-white px-5">{content}</p>
         </div>
       )}
     </div>
