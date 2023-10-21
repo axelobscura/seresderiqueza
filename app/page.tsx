@@ -13,8 +13,8 @@ export default function Home() {
         height='250'
         alt="una comunidad de inversionistas y educadores"
       />
+      <h1 className="font-play text-white text-center mt-5 mb-5 text-bold">CALCULADORA FINANCIERA PERSONAL</h1>
       <p className="font-play text-white text-center">Somos una comunidad de inversionistas y educadores,<br/>nuestra misión es transformar vidas<br/>a través de la educación financiera y ayudar a las personas a alcanzar su plenitud financiera.</p>
-      <h1 className="font-play text-white text-center mt-5 text-bold">CALCULADORA FINANCIERA PERSONAL</h1>
       <div className="grid grid-cols-2 gap-4 mt-10">
         <Link href='/finanzas' className="p-5 bg-oro text-azul hover:bg-gray-900 hover:text-white">
           <p className="text-center">FINANZAS PERSONALES</p>
